@@ -15,5 +15,5 @@ else:
 if la_nguyen_to == True:
     print(n, "là số nguyên tố.")
 else:
-
     print(n, "KHÔNG PHẢI là số nguyên tố.")
+
