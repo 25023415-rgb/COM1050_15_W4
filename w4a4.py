@@ -1,8 +1,9 @@
-# -*- coding: utf-8 -*-
 while True:
     try:
         n = int(input("Nhập một số nguyên: "))
         break
+    except ValueError:
+        print("Vui lòng nhập một số nguyên")
 
 if n < 0:
     n = -n
